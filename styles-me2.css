@@ -1,0 +1,85 @@
+*, *::before, *::after 
+{
+    box-sizing: border-box; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Times New Roman", Times, serif;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+}
+
+caption {
+    font-size: 25px;
+    color:#7c3aed;
+    margin: 10px;
+}
+
+table, th, td {
+    border:5px inset #f99cc9;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+
+th {
+    font-size: 20px;
+    background-color: #ffffd8;
+    color: #920d61b9;
+}
+
+#full-name {
+    font-size: 25px;
+    color: #920d4d;
+}
+
+td {
+    background-color: #fdfdf0;
+}
+
+
+p, ol, ul {
+    color: #eb25a2;
+}
+
+.quotebox {
+    margin: 0;
+    padding: 12px 18px;
+    border-left: 4px solid #eb25a2;
+    background-color: #fff9fd;
+}
+
+/* GITHUB PROFILE LINK */
+
+a {
+    color: #eb25a2;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+}
+
+a:visited {
+    color: #7c3aed;
+}
+
+#link-tr {
+    transition: all 0.2s ease-in-out;
+}
+
+#link-tr:hover {
+    background-color: #e41f9cb9;
+}
+
+#link-tr a {
+    display: block;
+    width: 100%;
+}
+
+#link-tr:hover a {
+    color: white;
+}
