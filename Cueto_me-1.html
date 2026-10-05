@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Exercise 1</title>
+    <link href="styles-me2.css" rel="stylesheet">
 </head>
+
 <body>
-    <table border="1" cellpadding="15" cellspacing="5">
+    <main>
+    <table>
         <caption><b>My Personal Profile</b></caption>
         <tr>
-            <th colspan="2" bgcolor="#f7d2da"><big><b>Katrina Joyce C. Cueto</b></big></th>
+            <th colspan="2" id="full-name"><b>Katrina Joyce C. Cueto</b></th>
         </tr>
         <tr>
-            <td bgcolor="#f5e6e9"><img src="katrina.png" alt="Katrina" width="270" height="275"></td>
+            <th><img src="katrina.png" alt="Katrina" width="270" height="275"></th>
             <td>
                 <p><b>Name:</b> Katrina Joyce Consolacion Cueto</p>
                 <p><b>Birthday:</b> June 15, 2007</p>
@@ -20,17 +23,17 @@
             </td>
         </tr>
         <tr>
-            <th bgcolor="#f5e6e9">Hobbies</th>
+            <th>Hobbies</th>
             <td>
                 <ul>
-                    <li>Crocheting</li>
+                    <li>Drawing</li>
                     <li>Writing fiction</li>
                     <li>Reading</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <th bgcolor="#f5e6e9">Top 3 Movies</th>
+            <th>Top 3 Movies</th>
             <td>
                 <ol>
                     <li>27 Dresses (2008)</li>
@@ -40,9 +43,9 @@
             </td>
         </tr>
         <tr>
-            <th bgcolor="#f5e6e9">Favorite Quote</th>
+            <th>Favorite Quote</th>
             <td>
-                <blockquote>
+                <blockquote class="quotebox">
                     <p><i>"Maybe I'm one of those people that has always wanted to do it, <br>
                         but it's like a pipe dream for me, you know? <br>
                         And then you... You said it. <br>
@@ -51,7 +54,7 @@
             </td>
         </tr>
         <tr>
-            <th bgcolor="#f5e6e9">Fun Facts</th>
+            <th>Fun Facts</th>
             <td>
                 <ul>
 
@@ -74,8 +77,11 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2" bgcolor="#f7d2da"><a href="https://github.com/koryander"><b>My Github Profile</b></a></td>
+            <th id="link-tr" colspan="2">
+                <a href="https://github.com/koryander"><b>My Github Profile</b></a>
+            </th>
         </tr>
     </table>
+    </main>
 </body>
 </html>
