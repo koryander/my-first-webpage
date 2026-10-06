@@ -5,83 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Exercise 1</title>
     <link href="styles-me2.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-    <table>
-        <caption><b>My Personal Profile</b></caption>
-        <tr>
-            <th colspan="2" id="full-name"><b>Katrina Joyce C. Cueto</b></th>
-        </tr>
-        <tr>
-            <th><img src="katrina.png" alt="Katrina" width="270" height="275"></th>
-            <td>
-                <p><b>Name:</b> Katrina Joyce Consolacion Cueto</p>
-                <p><b>Birthday:</b> June 15, 2007</p>
-                <p><b>Status:</b> Student</p>
-            </td>
-        </tr>
-        <tr>
-            <th>Hobbies</th>
-            <td>
+    <div class="front-card">
+        <div class="pic">
+            <img src="katrina-transparent.png" alt="A picture of Katrina">
+        </div>
+        
+        <div class="info">
+            <h1 id="nickname">Wendy</h1>
+            <p>My full name is actually <b>Katrina Joyce Consolacion Cueto</b>, but I prefer being called Wendy!
+            I was born on <b>June 15, 2007</b>, and I am currently a BSCS student. I like <b>writing fiction, drawing, and cooking.</b>
+            </p>
+
+            <div>
+            <h3>FAVORITE QUOTE:</h3>
+                <figure class="quotebox">
+                    <blockquote cite="https://example.com">
+                        <p>"You change your dreams and then you grow up."</p>
+                    </blockquote>
+                     <figcaption>
+                    — Mia Dolan, <cite>La La Land</cite>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div>
+            <h3>FUN FACTS ABOUT ME:</h3>
                 <ul>
-                    <li>Drawing</li>
-                    <li>Writing fiction</li>
-                    <li>Reading</li>
+                    <li>I have two cats named CJ and Seven</li>
+                    <li>I've always wanted to be a high school math teacher, but now
+                        I want to be a full-time clothier and author</li>
                 </ul>
-            </td>
-        </tr>
-        <tr>
-            <th>Top 3 Movies</th>
-            <td>
-                <ol>
-                    <li>27 Dresses (2008)</li>
-                    <li>Click (2006)</li>
-                    <li>Misery (1990)</li>
-                </ol>
-            </td>
-        </tr>
-        <tr>
-            <th>Favorite Quote</th>
-            <td>
-                <blockquote class="quotebox">
-                    <p><i>"Maybe I'm one of those people that has always wanted to do it, <br>
-                        but it's like a pipe dream for me, you know? <br>
-                        And then you... You said it. <br>
-                        You change your dreams and then you grow up."</i></p>
-                </blockquote>
-            </td>
-        </tr>
-        <tr>
-            <th>Fun Facts</th>
-            <td>
-                <ul>
+            
+            </div>
+        </div>
+    </div>
 
-                <li>
-                    <p>
-                        I've always wanted to be a high school math teacher, but now<br>
-                        I want to be a <del>full-time clothier and author</del> corporate worker!
-                    </p>
-                </li>
+    <div class="card">
+        <h1>Favorite Movies</h1>
+        <div class="fav-movies-container">
+            <div class="movie">
+                <h3>27 Dresses</h3>
+                <p><i>2008 ‧ Comedy/Romance ‧ 1h 51m</i></p>
+                <p>Jane is the ultimate hopeless romantic. Having been a bridesmaid 27 times, she's spent her whole
+                   life taking care of everyone else's special day while putting down her own feelings. Then, her sister
+                   gets engaged to the the man she loves and ruins her idea of a dream wedding.
+                </p>
+            </div>
 
-                <li>
-                    <p>
-                        I have two cats named CJ and Seven:
-                    </p>
-                    <img src="cj.jpg" alt="Orange cat" width="150" height="200">
-                    <img src="seven.png" alt="Gray cat" width="175" height="200">
-                </li>
-                </ul>
+            <div class="movie">
+                <h3>Click</h3>
+                <p><i>2006 ‧ Comedy/Fantasy ‧ 1h 48m</i></p>
+                <p>The movie that got me into liking Adam Sandler, Click is about an architect who gets his hands on a 
+                   magical remote that lets him skip life's most annoying moments. It seems like a dream until he realizes
+                   he's missed most of his life, including the most precious moments.
+                </p>
+            </div>
 
-            </td>
-        </tr>
-        <tr>
-            <th id="link-tr" colspan="2">
-                <a href="https://github.com/koryander"><b>My Github Profile</b></a>
-            </th>
-        </tr>
-    </table>
-    </main>
+            <div class="movie">
+                <h3>Misery</h3>
+                <p><i>1990 ‧ Horror/Crime ‧ 1h 47m</i></p>
+                <p>Based on Stephen King's novel, <i>Misery</i>, famous author
+                   Paul Sheldon is saved from a freezing blizzard by his self-proclaimed "number one fan"
+                   Annie Wilkes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fun-facts">
+
+    </div>
+
+    <div class="github-card">
+        <a id="github-link" target="_blank" href="https://github.com/koryander"><h1>MY GITHUB PROFILE</h1></a>
+    </div>
 </body>
 </html>
